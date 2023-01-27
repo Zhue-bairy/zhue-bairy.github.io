@@ -1,0 +1,239 @@
+:root {
+    --mainColor: #070d31;
+    --secondaryColor: #333646;
+    --acsentColor: #9fe400;
+}
+
+body {
+    background-color: var(--mainColor);
+    min-height: 900px;
+    font-family: 'ubuntu', sans-serif;
+}
+
+section h1 {
+    color: #fff;
+    font-size: 2, 5rem;
+}
+
+/* Navbar*/
+.navbar :hover {
+    color: var(--acsentColor) !important;
+}
+
+.nav-dark {
+    background-color: var(--secondaryColor) !important;
+    z-index: 10;
+    transition: .8s;
+}
+
+.nav-link.active {
+    color: var(--acsentColor) !important;
+    font-weight: 700;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+/* Akhir Navbar */
+
+/* Hero */
+
+#hero {
+    color: #fff;
+    min-height: 80vh;
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+
+#hero h1 {
+    font-size: 3rem;
+}
+
+#hero h2 {
+    font-weight: 300;
+    padding-top: 20px;
+}
+
+#hero p {
+    font-size: 1, 1rem;
+    font-weight: 300;
+}
+
+/* CTA */
+.btn-custom1 {
+    background-color: var(--acsentColor);
+    text-align: center;
+    color: #fff;
+    min-width: 150px;
+    height: 45px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    border-radius: 0;
+}
+
+.btn-custom1:hover {
+    box-shadow: 0 0 5px rgba(255, 166, 0, .8);
+}
+
+.sosial-icon {
+    padding-left: 10px;
+    padding-bottom: 50px;
+}
+
+.sosial-icon a {
+    margin-right: .7em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.sosial-icon a :hover {
+    color: rgb(255, 255, 255);
+    transform: scale(1.50);
+}
+
+.cv {
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.cv span {
+    color: var(--acsentColor);
+}
+
+#hero img {
+    margin-left: 50px;
+}
+
+/* Akhir Hero */
+
+/* About */
+
+h6 {
+    color: var(--acsentColor);
+    padding-bottom: 10px;
+}
+
+hr {
+    width: 35%;
+    height: 5px;
+    color: var(--acsentColor);
+    margin: 0 auto;
+    opacity: 100%;
+}
+
+#about {
+    min-height: 300px;
+    width: 100%;
+    background-color: var(--secondaryColor);
+    color: #fff;
+    padding: 80px;
+}
+
+/* Akhir About */
+
+/* Skill */
+
+#skill {
+    min-height: 60px;
+    width: 100%;
+    color: #fff;
+    padding-top: 80px;
+}
+
+#skill img {
+    width: 12%;
+    margin: 30px;
+    margin-top: 70px;
+}
+
+#skill .card {
+    background-color: #333646;
+    height: 380px;
+    box-shadow: 5px 5px;
+}
+
+#skill .card:hover {
+    background-color: var(--acsentColor);
+    color: var(--mainColor);
+}
+
+.skill-konten {
+    margin-top: 120px;
+    height: 20%;
+}
+
+.skill-konten P {
+    margin-top: 30px;
+}
+
+.card svg {
+    width: 50%;
+}
+
+/* Akhir Skill */
+
+/* Sertifikat */
+
+#sertifikat {
+    margin-top: -170px;
+    padding: 270px;
+    padding-bottom: 80px;
+    background-color: var(--secondaryColor);
+}
+
+#sertifikat img {
+    width: 49%;
+    padding: 10px;
+}
+
+/* Akhir Sertifikat */
+
+/* Galery Portofolio */
+
+#portofolio .container {
+    margin-top: 80px;
+}
+
+#portofolio .card {
+    width: 60%;
+}
+
+#portofolio .card:hover {
+    transform: scale(1.30);
+}
+
+/* Akhir Galery Portofolio */
+
+/* Footer */
+
+footer {
+    background-color: var(--secondaryColor);
+    margin-top: -50px;
+    color: #fff;
+
+}
+
+footer svg {
+    padding-top: -10%;
+}
+
+.sosial-icon-footer a {
+    margin-right: .7em;
+    margin-bottom: 10px;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.sosial-icon-footer a :hover {
+    color: rgb(255, 255, 255);
+    transform: scale(1.50);
+}
+
+footer .sosial-icon-footer p span {
+    color: var(--acsentColor);
+}
+
+/* Akhir Footer */

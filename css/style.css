@@ -237,3 +237,56 @@ footer .sosial-icon-footer p span {
 }
 
 /* Akhir Footer */
+
+/*edit*/
+/* Media Queries untuk Mobile & Tablet */
+@media (max-width: 768px) {
+    
+    /* Reset Padding & Margin yang terlalu besar */
+    #hero {
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    #hero h1 {
+        font-size: 2.2rem; /* Ukuran teks lebih kecil di HP */
+    }
+
+    #hero img {
+        margin-left: 0;
+        margin-top: 30px;
+        width: 80%; /* Gambar tidak meluap */
+    }
+
+    #about {
+        padding: 40px 20px; /* Kurangi padding besar */
+    }
+
+    #skill img {
+        width: 25%; /* Perbesar icon skill agar terlihat di layar kecil */
+    }
+
+    #skill .card {
+        margin-bottom: 20px;
+        height: auto; /* Biarkan tinggi kartu menyesuaikan konten */
+        padding: 20px;
+    }
+
+    #sertifikat {
+        padding: 80px 20px; /* Ubah padding 270px yang terlalu ekstrem */
+        margin-top: 0;
+    }
+
+    #sertifikat img {
+        width: 100%; /* Gambar sertifikat full width di HP */
+        margin-bottom: 10px;
+    }
+
+    #portofolio .card {
+        width: 100%; /* Card portfolio full width di HP */
+    }
+    
+    hr {
+        width: 60%; /* Garis pembatas lebih lebar di HP */
+    }
+}

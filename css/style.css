@@ -282,8 +282,8 @@ footer .sosial-icon-footer p span {
         margin-bottom: 10px;
     }
 
-    /* #portofolio .card {
-        width: 100%; /* Card portfolio full width di HP */
+    #portofolio .card {
+        width: 100%; /* Card portfolio full width di HP
     } */
     
     hr {
@@ -314,13 +314,13 @@ footer .sosial-icon-footer p span {
 }
 
 /* Memperbaiki tampilan icon SVG/FontAwesome di dalam kartu */
-#skill .card i {
+/* #skill .card i {
     margin-bottom: 20px;
 }
 
 @media (max-width: 576px) {
     .img-skill-icon {
         width: 45px; /* Logo lebih kecil di HP */
-        margin: 10px;
+        /* margin: 10px;
     }
-}
+} */ 

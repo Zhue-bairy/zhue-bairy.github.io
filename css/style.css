@@ -290,3 +290,37 @@ footer .sosial-icon-footer p span {
         width: 60%; /* Garis pembatas lebih lebar di HP */
     }
 }
+
+/* Styling Icon Skill (Logo Software) */
+.img-skill-icon {
+    width: 60px; /* Ukuran tetap agar tidak kebesaran */
+    margin: 15px;
+    transition: 0.3s;
+}
+
+/* Responsivitas untuk kartu */
+#skill .card {
+    background-color: var(--secondaryColor);
+    color: #fff;
+    border: none;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+#skill .card:hover {
+    background-color: var(--acsentColor);
+    color: var(--mainColor);
+    transform: translateY(-10px);
+}
+
+/* Memperbaiki tampilan icon SVG/FontAwesome di dalam kartu */
+#skill .card i {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 576px) {
+    .img-skill-icon {
+        width: 45px; /* Logo lebih kecil di HP */
+        margin: 10px;
+    }
+}

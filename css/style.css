@@ -194,31 +194,32 @@ hr {
 /* Galery Portofolio */
 
 /* PORTOFOLIO */
-#portofolio {
-    background-color: var(--mainColor);
-}
+/* ===== PORTFOLIO FIX ===== */
 
-.portfolio-card {
-    border: none;
+.portfolio-item {
+    width: 100%;
+    height: 260px;              /* KUNCI TINGGI */
     overflow: hidden;
-    border-radius: 8px;
+    border-radius: 10px;
+    background-color: #111;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.35);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.portfolio-card img {
+.portfolio-item img {
     width: 100%;
-    height: 220px;
-    object-fit: cover;
+    height: 100%;
+    object-fit: cover;          /* POTONG RAPI */
+    object-position: top;       /* Poster tetap enak dibaca */
 }
 
-/* Hover hanya di desktop */
+/* Hover elegan (desktop only) */
 @media (hover: hover) {
-    .portfolio-card:hover {
-        transform: scale(1.05);
-        box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    .portfolio-item:hover {
+        transform: translateY(-8px) scale(1.03);
+        box-shadow: 0 18px 40px rgba(0,0,0,0.5);
     }
 }
-
 
 /* Akhir Galery Portofolio */
 
